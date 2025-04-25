@@ -142,3 +142,44 @@ footer p {
   margin-top: 20px;
   font-size: 16px;
 }
+
+@media (max-width: 768px) {
+  .product-carousel{
+    flex-wrap: nowrap;
+  }
+  .product {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  .product img {
+    width: 100%;
+    height: auto;
+  }
+
+  .pricetag {
+    top: 5px;
+    left: 5px;
+    font-size: 12px;
+    padding: 4px 8px;
+  }
+
+  .product-category{
+    font-size: 20px;
+  }
+
+  .category-section {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .category-section h2 {
+    font-size: 1.5rem;
+    text-align: center;
+  }
+
+  .footer {
+    flex-direction: column;
+    text-align: center;
+  }
+}
